@@ -8,7 +8,7 @@ module.exports = function(config) {
 		frameworks: ['jasmine'],
 		preprocessors: {
 		  'src/**/*.spec.js': ['rollup']
-        },
+		},
 		reporters: ['progress'],
 		rollupPreprocessor: {
 			cache: true,
